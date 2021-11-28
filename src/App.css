@@ -16,10 +16,17 @@
 }
 
 .container div,
-input[type="number"] {
+input[type="number"],
+input[type="text"] {
   width: 200px;
   text-align: center;
   background-color: white;
+}
+
+.container .nameTag {
+  background-color: lightsalmon;
+  color: black;
+  border: 2px solid black;
 }
 
 button {

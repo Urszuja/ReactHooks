@@ -5,11 +5,13 @@ import "./index.css";
 import App from "./App";
 import AppUseEffect from "./AppUseEffect";
 import AppUseMemo from "./AppUseMemo";
+import AppUseRef from "./AppUseRef";
 
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
+    <AppUseRef />
     <AppUseMemo />
     <App />
     <AppUseEffect />
