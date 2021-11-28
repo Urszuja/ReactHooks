@@ -13,7 +13,7 @@ function AppUseEffect() {
 
   return (
     <div className="main">
-      <h1>Simple example of React useEffect usage</h1>
+      <h1>Simple example of React useEffect hook</h1>
       <div className="container">
         <button onClick={() => setResourceType("posts")}>Posts</button>
         <button onClick={() => setResourceType("users")}>Users</button>
