@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import "./App.css";
 
@@ -19,15 +20,16 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <div className="main">
+      <h1>Simple example of React useState hook</h1>
       <h3>{count > 0 ? `How many ${dish} ?` : `C'mon order some dumplings`}</h3>
-      <>
+      <div className="container">
         <button onClick={decrementtOrder}> - </button>
         <span>
           {count} {dish}
         </span>
         <button onClick={incrementOrder}> + </button>
-      </>
+      </div>
     </div>
   );
 }
