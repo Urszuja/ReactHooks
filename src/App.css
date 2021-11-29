@@ -21,6 +21,7 @@ input[type="text"] {
   width: 200px;
   text-align: center;
   background-color: white;
+  margin: 0 5px;
 }
 
 .container .nameTag {
@@ -38,5 +39,5 @@ button {
 
 h5 {
   width: 600px;
-  background-color: lightpink;
+  background-color: lightsalmon;
 }
