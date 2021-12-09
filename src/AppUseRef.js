@@ -2,7 +2,7 @@
 State vs ref 
 ~ both persist between render of component,
 BUT ref doesn't re-render component when it changes
-ref is seperated from update cycle
+ref is separated from update cycle
 */
 
 import React from "react";

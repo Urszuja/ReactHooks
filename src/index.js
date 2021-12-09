@@ -7,11 +7,13 @@ import AppUseEffect from "./AppUseEffect";
 import AppUseMemo from "./AppUseMemo";
 import AppUseRef from "./AppUseRef";
 import AppUseContext from "./AppUseContext";
+import AppUseReducer from "./AppUseReducer";
 
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
+    <AppUseReducer />
     <AppUseContext />
     <AppUseRef />
     <AppUseMemo />
